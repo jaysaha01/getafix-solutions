@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Getafix Solutions is providing unmatched customer experience & delight in construction & construction services. A trendsetter in implementing systems and processes for project management & monitoring service delivery with specific focus on timely and within budget delivery, Getafix is winning hearts and setting trends in the construction sector.">
+  <meta name="keywords" content="Renovation, Remodeling, Construction management, Interior design, Architectural design, Building maintenance,
+Restoration, Facility management, Tenant improvements, Green building, Sustainable construction, MEP (Mechanical, Electrical, Plumbing), Tenant fit-out ,Accessibility upgrades, Building code compliance, Site development, Landscaping, Structural engineering,
+HVAC (Heating, Ventilation, and Air Conditioning), Fire protection systems, Construction, Building , Contracting,  Infrastructure, Development, Architecture, Civil engineering , Commercial construction, Residential construction, General contractor, Project management, Construction services ,Construction materials, Constuction industry, Construction projects">
+    <title>Getafix - solution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+
+    <!-- slick -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
+</head>
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MB9YLLZVVS"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MB9YLLZVVS'); </script>
+
+
+<body>
+
+    <!-- Navbar section Start -->
+	<div class="top-label">
+		<div class="container">
+			<div class="flxnav">
+			<div class="qone"><a href="">Reach out to us at </a></div>
+			<div class="qtwo">
+				<div class="textone"><a href="tel:+919830969300"><strong>Phone: </strong>+919830969300</a></div>
+				<div class="texttwo"><a href="mailto:contact@getafixsolutions.com"><strong>Email-id: </strong>contact@getafixsolutions.com</a></div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/home img/WebsiteLogoPNGNew 2.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img src="./images/home img/menubar.png" alt="">
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown dropdownone">
+                        <a class="nav-link dropdown-toggle" href="service.html" onclick="return dropdownToggle(event)">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item dropdown-itemone extrali" href="service.html">All Service</a></li>
+                            <li><a class="dropdown-item dropdown-itemone" href="construction.html">Construction</a></li>
+                            <li><a class="dropdown-item" href="constructionservice.html">Construction Services</a></li>
+                        </ul>
+                    </li>
+                </ul>
+				
+                <div class="navbtnflex">
+                    <a href="get-a-quore.html">
+                        <span class="navbar-text navbtn qtbtn">
+                            Get a quote
+                        </span>
+                    </a>
+                    <a href="contact.html">
+                        <span class="navbar-text navbtn conactbtn">
+                            Contact Us
+                            <img src="./images/home img/Arrow 2.png" alt="">
+                        </span>
+                    </a>
+					
+					
+					
+                </div>
+				
+            </div>
+        </div>
+    </nav>
+
+<!--- event pop up -------------->
+    <style type="text/css">
+  
+    #popup {
+            display:none;
+            position:absolute;
+            margin:0 auto;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+             background:rgba(255,255,255,1.0);
+              padding:10px;
+               width:40%;
+                 border:2px solid#fc5c5e;
+              
+    }
+    #close{
+        margin:5px auto 0px;
+         border:none;
+         background:#f00;
+          color:#fff;
+        font-size:24px;
+        width:30px;
+        height:30px;
+        border-radius:100%; 
+          font-weight:bold;
+         
+          position: absolute;
+    top:-3%;
+    right: -11px
+    }
+    #close p{
+        margin-bottom:0px;
+            margin-bottom: 0px;
+    margin-top: -6px
+    }
+    #close:focos{
+        border:none;
+    }
+@media(max-width:480px){
+     #popup {
+          width:100%;
+     }
+}
+
+
+ 
+    .new-info h4{ text-align:center }
+        .new-info p{ }
+   }
+    @media(max-width:480px){
+        #popup{
+             width:90%;
+        }
+       
+    }
+    
+  
+</style>
+
+ <div id="popup"> 
+
+        <!-- and here comes the image -->
+  <div class="new-info">
+            <h4>Getafix Solutions- the property makeover specialist is proud to be the brand partner of Trailblazers 2.0</h4>
+            <img src="./images/event/getaevent.jpg"  width="100%">
+
+        </div>
+
+        <!-- Now this is the button which closes the popup-->
+ <button id="close"><p>x</p></button>
+
+        <!-- and finally we close the POPUP FRAME-->
+   </div>
+
+<!--- event pop up -------------->
+
+
+
+<!-- Banner section start -->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-pause="false" data-bs-interval="2000" data-bs-ride="carousel">
+    <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div> -->
+    <div class="carousel-inner">
+        <div class="carousel-item carousel-one active">
+            <div class="carousalinnercrd">
+                <h2>Getafix<br>
+                    <p class="lightfnt">Magical Solution Provider in Construction<br> and Construction Services</p>
+                </h2>
+                <div class="bbtns">
+                    <div class="probtn" data-bs-toggle="modal" data-bs-target="#exampleModalPopovers">
+                        Enquire Now
+                        <img src="./images/home img/Arrow 2.png" class="ps-2">
+                    </div>
+
+                    <a href="contact.html">
+                        <div class="contbtn">
+                            Contact us
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="carousel-item carousel-two">
+            <div class="carousalinnercrd">
+                <h2>GetaFix<br><span class="lightfnt">Your Home Repair Expert</span></h2>
+                <div class="bbtns">
+                    <div class="probtn hprobtn">
+                        Start a project
+                        <img src="./images/home img/Arrow 2.png" class="ps-2">
+                    </div>
+                    <div class="contbtn">
+                        Contact us
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="carousel-item carousel-three">
+            <div class="carousalinnercrd">
+                <h2>GetaFix<br><span class="lightfnt">Your Home Repair Expert</span></h2>
+                <div class="bbtns">
+                    <div class="probtn">
+                        Start a project
+                        <img src="./images/home img/Arrow 2.png" class="ps-2">
+                    </div>
+                    <div class="contbtn">
+                        Contact us
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <i class="fa-solid fa-chevron-left"></i>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <i class="fa-solid fa-chevron-right"></i>
+        <span class="visually-hidden">Next</span>
+    </button> -->
+</div>
+
+<!-- Banner section end -->
+
+<!-- About us section start -->
+<div class="aboutus">
+    <img src="./images/home img/Ellipse 4.png" class="aboutshape">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 abtone">
+                <div class="sliderbxone">
+                    <p>Overview</p>
+                    <h3 class="pb-3">About Us</h3>
+                </div>
+
+                <div class="read-more-container">
+                    <div class="containerr">
+                        <p>Getafix Solutions is providing unmatched customer experience & delight in construction &
+                            construction services. A trendsetter in implementing systems and processes for project
+                            management & monitoring service delivery with specific focus on timely and within budget
+                            delivery, Getafix is winning hearts and setting trends in the construction sector.<br><br>
+
+                            Unmatched customer delight and user experience through timely and quality deliveries is key
+                            to Getafix Solutions’ service policy and is well placed to be your trusted partner in
+                            catering to all your Construction and Construction Services needs, be it a new development,
+                            redevelopment, or Construction Services like remodeling and repair jobs in residential,
+                            institutional or commercial projects.<br><br>
+
+                            A start-up backed by legacy organizations which have been building landmark projects for 30
+                            years, Getafix Solutions is gaining Customers’ trust by leveraging the latest technology for
+                            project management and monitoring; led by an experienced team of professionals and
+                            technocrats; adopting our time-tested methodology of partner and alliance selection and
+                            sustained by the organizational DNA of fairness, honesty, transparency and integrity in
+                            every sphere of activity.
+
+                            <span class="read-more-text">
+                                <br><br>
+                                Our Design Thinking has evolved a project monitoring and management framework that
+                                tracks all aspects of our projects and services throughout the lifecycle making us your
+                                trusted GO-TO Service Provider. Our experienced team of experts will be happy to
+                                schedule a visit as per your convenience, assess the scope of work, evaluate various
+                                options, as applicable, through an interactive process, prepare a work calendar and
+                                budget and finalize the project after discussions with you.
+                            </span>
+                        </p>
+                        <span class="read-more-btn">Read More...</span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="abtlbtn">
+                    <a href="aboutus.html">
+                        Learn more
+                        <img src="./images/home img/Arrow 2.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 abttwo">
+                <div class="abotgal">
+                    <div class="abotgalone">
+                        <img src="./images/home img/aboutone.jpg" alt="">
+                    </div>
+                    <div class="abotgaltwo">
+                        <img src="./images/home img/abouttwo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About us section end -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<!-- Our services section start -->
+
+<div class="oursrvcescont">
+    <div class="container">
+
+        <div class="oursrvheading">
+            <h2>Our Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="serbxcvrflx">
+
+                    <a href="construction.html" target="_blank">
+                        <div class="ourservicebxone">
+                            <div class="servieimgbx">
+                                <img src="./images/home img/serviceone.png" alt="">
+                            </div>
+                            <div class="servietxtbx">
+                                <h5>Construction</h5>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="constructionservice.html" target="_blank">
+                        <div class="ourservicebxtwo">
+                            <div class="servieimgbx">
+                                <img src="./images/home img/servicetwo.png" alt="">
+                            </div>
+                            <div class="servietxtbx">
+                                <h5>Construction &nbsp; Services</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Our services section end -->
+
+<!-- second gallery start -->
+
+<div class="gallery">
+    <div class="container">
+        <h1 class="ourgalleryhed text-center pb-5">Gallery</h1>
+        <div class="row">
+            <div class="col-md-12 gridsecone">
+                <div class="gallist pb-4">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item " role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Construction
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Construction services</button>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Construction
+                                services</button>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="parentgrid angry-gridone">
+
+                            <div id="item-0" class="griditem">
+                                <a class="view" href="./images/home img/gone.jpg">
+                                    <img src="./images/home img/gone.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-1" class="griditem">
+                                <a class="view" href="./images/home img/gtwo.jpg">
+                                    <img src="./images/home img/gtwo.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-2" class="griditem">
+                                <a class="view" href="./images/home img/gthree.jpg">
+                                    <img src="./images/home img/gthree.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-3" class="griditem">
+                                <a class="view" href="./images/home img/gfour.jpg">
+                                    <img src="./images/home img/gfour.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-4" class="griditem">
+                                <a class="view" href="./images/home img/gfive.jpg">
+                                    <img src="./images/home img/gfive.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="angry-grid mt-3">
+                            <div id="items-0" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwoone.png">
+                                    <img src="./images/home img/gtwoone.png">
+                                </a>
+                            </div>
+                            <div id="items-1" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwotwo.png">
+                                    <img src="./images/home img/gtwotwo.png">
+                                </a>
+                            </div>
+
+                            <div id="items-2" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwothree.png">
+                                    <img src="./images/home img/gtwothree.png">
+                                </a>
+                            </div>
+
+                            <div id="items-3" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwofour.png">
+                                    <img src=" ./images/home img/gtwofour.png">
+                                </a>
+                            </div>
+
+                            <div id="items-4" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwofive.png">
+                                    <img src="./images/home img/gtwofive.png">
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                        <div class="parentgrid angry-gridone">
+
+                            <div id="item-0" class="griditem">
+                                <a class="view" href="./images/home img/gsix.jpg">
+                                    <img src="./images/home img/gsix.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-1" class="griditem">
+                                <a class="view" href="./images/home img/gseven.jpg">
+                                    <img src="./images/home img/gseven.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-2" class="griditem">
+                                <a class="view" href="./images/home img/geight.jpg">
+                                    <img src="./images/home img/geight.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-3" class="griditem">
+                                <a class="view" href="./images/home img/gnine.jpg">
+                                    <img src="./images/home img/gnine.jpg">
+                                </a>
+                            </div>
+
+                            <div id="item-4" class="griditem">
+                                <a class="view" href="./images/home img/gten.jpg">
+                                    <img src="./images/home img/gten.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                        <div class="angry-grid mt-3">
+                            <div id="items-0" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwoone.png">
+                                    <img src="./images/home img/gtwoone.png">
+                                </a>
+                            </div>
+                            <div id="items-1" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwotwo.png">
+                                    <img src="./images/home img/gtwotwo.png">
+                                </a>
+                            </div>
+
+                            <div id="items-2" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwothree.png">
+                                    <img src="./images/home img/gtwothree.png">
+                                </a>
+                            </div>
+
+                            <div id="items-3" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwofour.png">
+                                    <img src=" ./images/home img/gtwofour.png">
+                                </a>
+                            </div>
+
+                            <div id="items-4" class="griditem">
+                                <a class="view" href="./images/home img/bigpic/bgtwofive.png">
+                                    <img src="./images/home img/gtwofive.png">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="galerytwobtns">
+            <div class="gviewbtn me-4 image-magni">
+                <div class="cta-btn">
+                    <a href="./images/home img/geleven.jpg" type="button">View More</a>
+                    <a href="./images/home img/gtwlev.jpg"></a>
+                    <a href="./images/home img/gthateen.jpg"></a>
+                    <a href="./images/home img/gfifteen.jpg"></a>
+                </div>
+            </div>
+
+            <a href="contact.html">
+                <button class="gviewcontct">
+                    Contact Us
+                    <img src="./images/home img/Arrow 2.png" alt="">
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- footer section start -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="foobxone">
+                    <img src="./images/home img/WebsiteLogoPNGNew 2.png " class="pb-3">
+                    <div class="foobxonepara">
+                        <p>Getafix Solutions is the general service contractor you can trust to deliver impressive results for your next renovation, remodelling or repair job and even your next construction project. Whether it’s a residential or commercial project, you can depend on us for delivering your entire requirement.</p>
+                    </div>
+                  <!--  <div class="iconbx">
+                        <a href="https://www.facebook.com/getafixsolutionskolkata/" target="_blank">
+                            <i class="fa-brands fa-facebook-f facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/getafix_solutions/" target="_blank">
+                            <i class="fa-brands fa-instagram instagram"></i>
+                        </a>
+                    </div>-->
+					
+					
+					<div class="dtlbx">
+						<div class="bxone"><a href="https://maps.app.goo.gl/6ii95UK2gmTi5F1Q7" target="_blank">
+                           <strong> Address:</strong> 19A, Palit St, Garcha, Ballygunge, Kolkata 
+                        </a></div>
+						<div class="bxtwo ">
+							<a href="tel:+919830969300">
+                            <strong>Phone:</strong>+919830969300
+                        </a>
+						</div>
+						<div class="bxtwo ">
+							<a href="mailto:contact@getafixsolutions.com">
+                            <strong>Email:</strong>contact@getafixsolutions.com
+                        </a>
+						</div>
+					</div>
+					
+					<div class="dtlbx">
+						<div class="bxone">
+                           <strong> Social media:</strong> <a href="https://www.facebook.com/getafixsolutionskolkata/" target="_blank">
+                            <i class="fa-brands fa-facebook-f" style="color:#316ff6"></i> &nbsp;&nbsp;Facebook</a>,&nbsp; <a href="https://www.instagram.com/getafix_solutions/" target="_blank"><i class="fa-brands fa-square-instagram" style="color:#f00"></i> &nbsp;&nbsp; Instagram</a>
+                        </div>
+						<!--<div class="bxtwo ">
+							<a href="tel:+919830969300">
+                            <strong>Phone:</strong>+919830969300
+                        </a>
+						</div>-->
+					</div>
+					
+					
+					<!--<div class="devbrand">
+						
+						<a href="https://www.markobrando.com/">
+                            Website by Marko & Brando
+                        </a>
+						
+						</div>--->
+					
+					<a href="https://wa.me/+919830969300">
+                           <div class="flotone"><i class="fa-brands fa-whatsapp"></i></div>
+                        </a>
+					
+					<!--<a href="mailto:contact@getafixsolutions.com">
+                           <div class="flottwo"><i class="fa-regular fa-envelope"></i></div>
+                        </a>-->
+				
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="foobxtwo">
+                    <div class="foobtxt">
+                        <p>Copyright @ 2023 Getafix Solutions and Management LLP</p>
+	
+                    </div>
+
+                    <div class="foobmenu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="service.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="construction.html">Construction</a>
+                            </li>
+                            <li>
+                                <a href="constructionservice.html">Construction Services</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer section end -->
+
+
+<!-- Modal body -->
+
+
+<div class="modal mymodal" id="exampleModalPopovers" tabindex="-1" aria-labelledby="exampleModalPopoversLabel" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container-fluid ps-0 pe-0">
+                <div class="row g-0">
+                    <div class="col-md-6 py-md-0 d-none d-sm-block">
+                        <div class="modalone">
+                            <img src="./images/home img/stear.jpg" alt="" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modaltwo">
+                            <h3 class="text-center">Get a call back</h3>
+                            <p class="text-center">Start the conversation. Let our expert team help you.</p>
+                            <form action="mail.html" method="post" id="contactForm">
+                                <div class="moalflx">
+                                    <div class="mdlcon">
+                                        <img src="./images/home img/muser.png" alt="">
+                                    </div>
+                                    <div class="mdlinput">
+                                        <input type="text" placeholder="Name" name="name" value="" required>
+                                    </div>
+                                </div>
+                                <div class="moalflx">
+                                    <div class="mdlcon">
+                                        <img src="./images/home img/mphone.png" alt="">
+                                    </div>
+                                    <div class="mdlinput">
+                                        <input type="text" placeholder="Phone" name="phone" value="" required>
+                                    </div>
+                                </div>
+                                <div class="moalflx">
+                                    <div class="mdlcon">
+                                        <img src="./images/home img/mmsg.png" alt="">
+                                    </div>
+                                    <div class="mdlinput">
+                                        <input type="text" placeholder="Email" name="email" value="" required>
+                                    </div>
+                                </div>
+                                <div class="moalflx">
+                                    <!-- <div class="mdlcon">
+                                            <i class="fa-regular fa-user"></i>
+                                        </div> -->
+                                    <div class="mdlinput">
+                                        <textarea id="" cols="" rows="" placeholder="Message" name="textmessage"></textarea>
+                                    </div>
+                                </div>
+								<div class="g-recaptcha fromcap" data-sitekey="6LdC7HQpAAAAAECCOV-U-ewg6GxnxJmNO6zct4Zq"></div>
+								<div id="recaptchaError" style="color: red;"></div>
+								
+                                <button class="mdlbtn">Enquire Now</button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal body -->
+
+<script src="./script/jquery.js"></script>
+<script src="./script/app.js"></script>
+
+<!-- slick -->
+
+<script src="./slick/slick.js"></script>
+<script src="./slick/slick.min.js"></script>
+
+<!-- slick -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+
+</script>
+
+<script>
+    // Magifine popup single image
+
+    $(document).ready(function() {
+
+        $('.view').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            mainClass: 'mfp-img-mobile',
+            image: {
+                verticalFit: true
+            }
+
+        });
+
+    });
+</script>
+
+<script>
+    // Magifine popup Gallery image
+
+    $(document).ready(function() {
+        $(".image-magni").magnificPopup({
+            delegate: "a",
+            type: "image",
+            tLoading: "Loading image #%curr%...",
+            mainClass: "mfp-img-mobile",
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            },
+        });
+    });
+
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    //select the POPUP FRAME and show it
+    $("#popup2").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close2").on("click", function (e) {
+        e.preventDefault();
+        $("#popup2").fadeOut(1000);
+    });
+
+});
+</script>
+<script>
+
+  $(document).ready(function () {
+
+    //select the POPUP FRAME and show it
+    $("#popup3").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup3").fadeOut(1000);
+    });
+
+});
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+
+</html>
